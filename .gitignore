@@ -6,3 +6,4 @@ data/training_data/vampires_test.jsonl
 data/training_data/vampires_train.jsonl
 data/training_data/vampires.jsonl
 .env
+data/tax_guide/irs_form_p17.pdf
