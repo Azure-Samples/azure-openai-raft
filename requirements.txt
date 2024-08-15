@@ -1,0 +1,6 @@
+datasets
+langchain
+openai
+pdf2image
+tqdm
+pandas
