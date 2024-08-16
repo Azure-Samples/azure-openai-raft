@@ -4,3 +4,4 @@ openai
 pdf2image
 tqdm
 pandas
+numpy
