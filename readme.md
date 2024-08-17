@@ -12,12 +12,4 @@ We demonstrate that our RAG approach trains the model to perform better RAG on t
 
 https://arxiv.org/abs/2403.10131
 
-You will use baseline model "gpt-4o-mini" to fine-tune on the dataset provided in the workshop. 
-
-
-NOTES:
-In  finetuning notebook:
-
-GENERATE TOKEN FROM CLI ONLY! DO NOT EXECUTE FROM NOTEBOOK!
-az account get-access-token
 
