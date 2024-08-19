@@ -17,19 +17,19 @@ Paper: https://arxiv.org/abs/2403.10131
 
 By design, this workshop only uses **Azure OpenAI service**. 
 
-1. Deploy required models
-For the workshop, you'll need GPT-4o, ada-002 embedding as well as GPT-4o-mini, make sure you deploy them
-2. Create and populate your credentials
+1. **Deploy required models**
+For the workshop, you'll need GPT-4o, ada-002 embedding as well as GPT-4o-mini, make sure you deploy them and have enough capacity (approximately 100K TPM).
+2. **Create and populate your credentials**
 Open the [sample.env](./sample.env) file, copy its content into a new `.env` file and fill the required credentials. Note that the FINETUNED model credentials can only be populated after running through notebook 2.
-3. Install dependencies
+3. **Install dependencies**
 
-install system dependencies:
+**Install system dependencies:**
 
 - on Linux run `sudo apt-get install -y poppler-utils`
 - on Mac run `brew install poppler`
 - On Windows run `conda install -c conda-forge poppler`
 
-Install Python dependencies:
+**Install Python dependencies:**
 ```shell
 conda create -n raft python=3.11
 
