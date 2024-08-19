@@ -22,6 +22,13 @@ For the workshop, you'll need GPT-4o, ada-002 embedding as well as GPT-4o-mini, 
 2. Create and populate your credentials
 Open the [sample.env](./sample.env) file, copy its content into a new `.env` file and fill the required credentials. Note that the FINETUNED model credentials can only be populated after running through notebook 2.
 3. Install dependencies
+
+install system dependencies:
+
+- on Ubuntu/Linux run `sudo apt-get install -y poppler-utils`
+- on Mac run `brew install poppler`
+
+Install Python dependencies:
 ```shell
 conda create -n raft python=3.11
 
