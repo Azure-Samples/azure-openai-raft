@@ -23,7 +23,7 @@ For the workshop, you'll need GPT-4o, ada-002 embedding as well as GPT-4o-mini, 
 Open the [sample.env](./sample.env) file, copy its content into a new `.env` file and fill the required credentials. Note that the FINETUNED model credentials can only be populated after running through notebook 2.
 3. Install dependencies
 ```shell
-conda env create -n raft python=3.11
+conda create -n raft python=3.11
 
 conda activate raft
 
