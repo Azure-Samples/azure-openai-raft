@@ -1,0 +1,17 @@
+datasets==2.19.1
+langchain-core==0.2.30
+langchain-experimental==0.0.62
+langchain-text-splitters==0.2.2
+openai==1.40.6
+ragas==0.1.13
+pdf2image==1.17.0
+tqdm==4.66.2
+pandas==2.2.1
+numpy==1.26.4
+matplotlib==3.8.3
+tiktoken==0.7.0
+python-dotenv
+ipykernel                                
+ipython                                  
+ipywidgets
+jupyterlab_widgets

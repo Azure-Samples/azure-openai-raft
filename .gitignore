@@ -7,3 +7,8 @@ data/training_data/vampires_train.jsonl
 data/training_data/vampires.jsonl
 .env
 data/tax_guide/irs_form_p17.pdf
+test.md
+data/training_data/banking_test_with_metadata.json
+data/training_data/banking_test.jsonl
+data/training_data/banking_train.jsonl
+data/training_data/banking_validation.jsonl
