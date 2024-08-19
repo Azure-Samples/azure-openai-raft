@@ -25,8 +25,9 @@ Open the [sample.env](./sample.env) file, copy its content into a new `.env` fil
 
 install system dependencies:
 
-- on Ubuntu/Linux run `sudo apt-get install -y poppler-utils`
+- on Linux run `sudo apt-get install -y poppler-utils`
 - on Mac run `brew install poppler`
+- On Windows run `conda install -c conda-forge poppler`
 
 Install Python dependencies:
 ```shell
